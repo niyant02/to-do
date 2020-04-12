@@ -21,6 +21,9 @@
     "redux-storage": "^4.1.2",
     "redux-thunk": "^2.3.0"
   },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
