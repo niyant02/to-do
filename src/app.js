@@ -3,7 +3,11 @@ const bodyParser = require("body-parser");
 
 const app = express();
 
+const cors = require("cors");
+
 const todoController = require("./controllers/todo.controller");
+
+app.use(cors());
 
 app.use(bodyParser.json());
 
